@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="72dp"
+    android:layout_height="match_parent"
+    android:id="@+id/simplePad"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Bracket"
+        style="@style/Widget.CalculatorPlus.NumPad.Primary"
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintVertical_bias="0"
+
+        android:text="\u00F7"
+        android:textColor="#6750A4"
+        android:textAppearance="@style/TextAppearance.CalculatorPlus.Subtitle2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/divide"
+        style="@style/Widget.CalculatorPlus.NumPad.Primary"
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:layout_constraintVertical_bias="0.25"
+
+        app:layout_constraintVertical_weight="1"
+
+        android:text="\u00D7"
+        android:textColor="#6750A4"
+        android:textAppearance="@style/TextAppearance.CalculatorPlus.Subtitle2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText"
+        />
+
+
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/multiply"
+        style="@style/Widget.CalculatorPlus.NumPad.Primary"
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintVertical_bias="0.5"
+
+        android:text="\u2212"
+        android:textColor="#6750A4"
+        android:textAppearance="@style/TextAppearance.CalculatorPlus.Subtitle2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+        />
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/plus"
+        style="@style/Widget.CalculatorPlus.NumPad.Primary"
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:layout_constraintVertical_weight="1"
+
+        android:text="\u002B"
+        android:textColor="#6750A4"
+        android:textAppearance="@style/TextAppearance.CalculatorPlus.Subtitle2"
+        app:layout_constraintVertical_bias="0.75"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText"
+        />
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/minus"
+        style="@style/Widget.CalculatorPlus.NumPad.Primary"
+
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintVertical_bias="1"
+
+        android:background="@drawable/bg_equal"
+        android:stateListAnimator="@null"
+        android:text="="
+        android:textAppearance="@style/TextAppearance.CalculatorPlus.Subtitle2"
+        android:textColor="#FFFFFF"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
